@@ -10,7 +10,7 @@ Clone repository and run
 npm install
 ```
 
-You have to change default values in ```package.json``` to build you own module.
+You have to change default values in ```package.json``` to build your own module.
 
 ## Babel
 
