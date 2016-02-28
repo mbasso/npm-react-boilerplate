@@ -1,0 +1,41 @@
+{
+  "name": "NAME",
+  "version": "1.0.0",
+  "description": "DESCRIPTION",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "babel --presets es2015,stage-0,react -d lib/ src/",
+    "lint": "eslint src",
+    "test": "test",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/USERNAME/PROJECT.git"
+  },
+  "keywords": [
+    "react",
+    "https",
+    "redirect",
+    "component"
+  ],
+  "author": "AUTHOR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/USERNAME/PROJECT/issues"
+  },
+  "homepage": "https://github.com/USERNAME/PROJECT#readme",
+  "dependencies": {
+    "react": "0.14.7"
+  },
+  "devDependencies": {
+    "babel-cli": "6.5.1",
+    "babel-eslint": "5.0.0",
+    "babel-preset-es2015": "6.5.0",
+    "babel-preset-react": "6.5.0",
+    "babel-preset-stage-0": "6.5.0",
+    "eslint": "2.2.0",
+    "eslint-config-airbnb": "6.0.2",
+    "eslint-plugin-react": "4.1.0"
+  }
+}
